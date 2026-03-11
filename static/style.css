@@ -1,0 +1,103 @@
+body{
+background:#0f172a;
+font-family:'Orbitron',sans-serif;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+margin:0;
+}
+
+/* Wider container */
+
+.container{
+
+background:#020617;
+padding:45px;
+border-radius:15px;
+box-shadow:0 0 25px #00f7ff;
+width:520px;
+border:1px solid #00f7ff;
+
+}
+
+/* Title fix */
+
+h2{
+
+text-align:center;
+margin-bottom:30px;
+color:#00f7ff;
+text-shadow:0 0 10px #00f7ff;
+font-size:28px;
+white-space:nowrap;
+
+}
+
+label{
+
+display:block;
+margin-bottom:5px;
+margin-top:10px;
+
+}
+
+/* Inputs */
+
+input{
+
+width:100%;
+padding:12px;
+background:#020617;
+border:1px solid #00f7ff;
+color:white;
+border-radius:6px;
+margin-bottom:15px;
+
+}
+
+input:focus{
+
+outline:none;
+box-shadow:0 0 10px #00f7ff;
+
+}
+
+/* Button */
+
+button{
+
+display:block;
+margin:25px auto 0 auto;
+width:70%;
+padding:14px;
+background:#00f7ff;
+border:none;
+border-radius:6px;
+color:black;
+font-weight:bold;
+cursor:pointer;
+transition:0.3s;
+font-size:16px;
+
+}
+
+button:hover{
+
+background:#22d3ee;
+box-shadow:0 0 15px #00f7ff;
+
+}
+
+/* Result */
+
+#result{
+
+margin-top:25px;
+text-align:center;
+font-size:22px;
+color:#22c55e;
+text-shadow:0 0 10px #22c55e;
+
+}
